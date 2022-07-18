@@ -23,3 +23,20 @@ h2.logo {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+h2.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.body-quote {
+    background-color: #E5E7EB;
+}
+
+p.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
