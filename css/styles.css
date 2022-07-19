@@ -28,6 +28,10 @@ ul {
     margin: 0;
 }
 
+.hero-text, .header-cta {
+    margin: 5px;
+}
+
 h1.hero-text {
     font-size: 48px;
     font-weight: bolder;
@@ -43,9 +47,13 @@ p.hero-text, a {
 button.hero-cta {
     background-color: #3882F6;
     color: #F9FAF8;
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 30px;
     font-weight: bold;
+    font-size: 16px;
+    border: 1px #3882F6 solid;
+    border-radius: 10px;
+    margin-left: 2px;
 }
 
 h2.logo {
