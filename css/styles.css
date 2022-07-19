@@ -46,6 +46,11 @@ h2.logo {
     font-weight: bold;
 }
 
+img {
+    height: auto;
+    width: 400px;
+}
+
 h2.info {
     font-size: 36px;
     font-weight: bolder;
