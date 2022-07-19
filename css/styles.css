@@ -139,16 +139,30 @@ p.quote-author {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 100px 200px;
+    padding: 50px 150px;
+    border-radius: 10px;
+}
+
+.call-to-action {
+    margin: 0;
+    border: 2px red solid;
+}
+
+.bold-cta, .norm-cta {
+    margin: 5px 0;
 }
 
 button.final-cta {
     border: 2px white solid;
+    border-radius: 10px;
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 10px 30px;
+    padding: 10px 40px;
     font-weight: bold;
+    font-size: 16px;
 }
 
-.nav, .header-body, .body-cta {
+.nav, .header-body{
     margin: 0 200px;
 }
