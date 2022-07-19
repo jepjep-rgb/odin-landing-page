@@ -21,6 +21,11 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
+    padding: 0;
+}
+
+.hero-text {
+    margin: 0;
 }
 
 h1.hero-text {
@@ -57,11 +62,15 @@ img {
 .header-body {
     display: flex;
     justify-content: space-between;
+    padding: 50px 0;
 }
 
 .header-cta {
     display: flex;
     flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 h2.info {
