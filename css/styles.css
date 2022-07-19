@@ -80,3 +80,19 @@ p.quote {
     font-style: italic;
     color: #1F2937;
 }
+
+.body-cta {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.final-cta {
+    border: 2px white solid;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    font-weight: bold;
+}
