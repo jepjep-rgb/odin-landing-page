@@ -166,3 +166,10 @@ button.final-cta {
 .nav, .header-body{
     margin: 0 200px;
 }
+
+.footer {
+    color: #F9FAF8;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
