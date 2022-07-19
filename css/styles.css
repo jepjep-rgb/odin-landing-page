@@ -38,6 +38,9 @@ p.hero-text, a {
 button.hero-cta {
     background-color: #3882F6;
     color: #F9FAF8;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
 }
 
 h2.logo {
@@ -49,6 +52,16 @@ h2.logo {
 img {
     height: auto;
     width: 400px;
+}
+
+.header-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-cta {
+    display: flex;
+    flex-direction: column;
 }
 
 h2.info {
