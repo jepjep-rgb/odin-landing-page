@@ -96,3 +96,7 @@ button.final-cta {
     padding: 10px 30px;
     font-weight: bold;
 }
+
+.nav, .header-body, .body-info, .body-cta {
+    margin: 0 200px;
+}
