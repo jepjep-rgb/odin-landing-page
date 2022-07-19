@@ -77,6 +77,31 @@ h2.info {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+}
+
+.deck {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+}
+
+.card img {
+    max-width: 200px;
+    height: auto;
+    padding: 0;
+    border: 5px #3882F6 solid;
+    border-radius: 10px;
+}
+
+p.sub-text, .card a {
+    text-align: center;
 }
 
 .body-quote {
