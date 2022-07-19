@@ -73,6 +73,10 @@ img {
     align-items: flex-start;
 }
 
+.body-info {
+    margin: 100px 200px;
+}
+
 h2.info {
     font-size: 36px;
     font-weight: bolder;
@@ -82,7 +86,7 @@ h2.info {
 
 .deck {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -145,6 +149,6 @@ button.final-cta {
     font-weight: bold;
 }
 
-.nav, .header-body, .body-info, .body-cta {
+.nav, .header-body, .body-cta {
     margin: 0 200px;
 }
